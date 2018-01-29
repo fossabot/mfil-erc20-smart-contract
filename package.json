@@ -1,0 +1,17 @@
+{
+  "name": "mfil-erc20-smart-contract",
+  "version": "0.0.1",
+  "description": "MineFIL ERC20 Ethereum Smart Contract",
+  "main": "truffle-config.js",
+  "scripts": {
+    "reload": "node -r dotenv/config truffle.js"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "truffle-hdwallet-provider": "0.0.3",
+    "zeppelin-solidity": "^1.6.0"
+  },
+  "author": "Frad Lee <fradser@minefil.net>",
+  "license": "MIT",
+  "dependencies": {}
+}
