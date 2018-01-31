@@ -1,8 +1,8 @@
-# MFIL Ethereum Smart Contract Scripts
+ # MFIL Ethereum Smart Contract Scripts
 
 ## Single-address Allocation
 
-Transfer `transferAmount` MFIL from `myAddress` to `destAddress` on Ropsten Test Net.
+Transfer `transferAmount` MFILs from `myAddress` to `destAddress` on Ropsten Test Net.
 
 ## TODO
 
