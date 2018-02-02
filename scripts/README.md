@@ -6,5 +6,5 @@ Transfer `transferAmount` MFILs from `myAddress` to `destAddress` on Ropsten Tes
 
 ## TODO
 
-- [ ] Multi-address Allocation
+- [ ] Mutli-address Allocation
 - [ ] Variational

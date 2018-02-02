@@ -23,7 +23,7 @@ const main = async () => {
     // Determine the nonce
     var count = await web3.eth.getTransactionCount(myAddress);
     console.log(`num transactions so far: ${count}`);
-    // MineFILToken contract ABI Array
+    // MineFILToekn contract ABI Array
     var abiArray = [{
         "constant": true,
         "inputs": [],
@@ -237,7 +237,7 @@ const main = async () => {
         }],
         "name": "Transfer",
         "type": "event"
-    }];
+    }]
     // The address of the contract which created MFIL
     var contractAddress = "0x1564A92a0870aF0eBf1F015f5FD223abaA3505CA";
     var contract = new web3.eth.Contract(abiArray, contractAddress, {

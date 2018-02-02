@@ -5,7 +5,7 @@ var HDWalletProvider = require("truffle-hdwallet-provider");
 // Interact with the ethereum blockchain via infura.io
 // The key for infura.io and mnemonic phrase are defined in .env
 var ropstenProvider = new HDWalletProvider(process.env["MNEMONIC"], "https://ropsten.infura.io/" + process.env["INFURA_KEY"]);
-var mainNetProvider = new HDWalletProvider(process.env["MNEMONIC"], "https://mainnet.infura.io/" + process.env["INFURA_KEY"])
+var mainNetProvider = new HDWalletProvider(process.env["MNEMONIC"], "https://mainnet.infura.io/" + process.env["INFURA_KEY"]);
 // I chose gas price and gas limit based on what ethereum wallet was recommending for a similar transaction. You may need to change the gas price!
 // Use Gwei instead of Wei for the gas price unit
 var gasPriceGwei = 60;
